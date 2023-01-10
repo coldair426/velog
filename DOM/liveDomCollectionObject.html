@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .red {
+        font-weight: bold;
+        color: red;
+      }
+      .blue {
+        font-weight: lighter;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red">빈지노</div>
+    <div class="red">검정치마</div>
+    <div class="red">이센스</div>
+    <div class="red">스윙스</div>
+    <div class="red">오웬</div>
+    <script>
+      const artists = document.getElementsByClassName('red');
+      for (let i = 0; i < artists.length; i++) {
+        artists[i].className = 'blue';
+      }
+    </script>
+  </body>
+</html>
