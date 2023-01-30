@@ -1,0 +1,19 @@
+/*
+기본 pc창 style
+*/
+@media all and (max-width: 1024px) {
+  /* pc 작은창, 태블릿 style */
+}
+@media all and (max-width: 767px) {
+  /* 모바일 style */
+}
+
+/*
+기본 모바일 style
+*/
+@media all and (min-width: 768px) {
+  /* pc 작은창, 태블릿 style */
+}
+@media all and (min-width: 1024px) {
+  /* pc style */
+}
