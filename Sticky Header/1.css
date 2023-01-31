@@ -1,0 +1,23 @@
+.header {
+  position: sticky;
+  top: 0px;
+  height: 60px;
+  margin: 0px;
+  justify-content: space-between;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.sticky-header {
+  display: flex;
+  visibility: hidden;
+  position: fixed;
+  top: 0px;
+  transition: height 50ms;
+  transition-timing-function: ease-in;
+  overflow: hidden;
+}
+@media all and (max-width: 767px) {
+  .sticky-header {
+    display: none;
+  }
+}

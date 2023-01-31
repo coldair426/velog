@@ -1,0 +1,28 @@
+/*
+일반버전(1) - PC
+style
+*/
+@media all and (max-width: 1024px) {
+  /*
+일반버전(2) - PC작은창, 태블릿
+style
+*/
+}
+@media all and (max-width: 767px) {
+  /*
+모바일버전(1) - 일반 스마트폰
+style
+*/
+}
+@media all and (max-width: 280px) {
+  /*
+모바일버전(2) - 갤럭시 플립
+style
+*/
+}
+
+@media all and (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
+}
