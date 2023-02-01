@@ -1,0 +1,15 @@
+.header__mobile-navigation-slide {
+  visibility: hidden;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  height: 100%;
+  width: 0%;
+  top: 0px;
+  right: 0px;
+}
+
+.header__mobile-navigation-slide {
+  transition-duration: 50ms;
+  transition-timing-function: ease-in;
+}

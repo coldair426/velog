@@ -1,0 +1,39 @@
+.sticky-header__overview-mark,
+.sticky-header__rooms-mark,
+.sticky-header__location-mark,
+.sticky-header__booknow-mark,
+.sticky-header__contactus-mark {
+  visibility: hidden;
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 8px;
+  background-color: #fca311;
+  margin-right: 3px;
+}
+.navigation__overview-mark,
+.navigation__rooms-mark,
+.navigation__location-mark,
+.navigation__booknow-mark,
+.navigation__contactus-mark {
+  visibility: hidden;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #fca311;
+  margin-right: 5px;
+}
+.header__mobile-navigation-overview-mark,
+.header__mobile-navigation-rooms-mark,
+.header__mobile-navigation-location-mark,
+.header__mobile-navigation-booknow-mark,
+.header__mobile-navigation-contactus-mark {
+  visibility: hidden;
+  content: '';
+  width: 4px;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #fca311;
+  margin-right: 4px;
+}
